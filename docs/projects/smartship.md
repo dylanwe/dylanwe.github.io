@@ -1,10 +1,14 @@
 ---
 title: 'SmartShip'
-description: 'A dashboard for captains who use the SmartShip controls.'
 image: '/img/docs/smartship/cover.png'
+description: 'A dashboard for captains who use the SmartShip controls.'
 sidebar_position: 2
 custom_edit_url: null
 ---
+
+:::info
+View the source code on [GitHub](https://github.com/dylanwe/smartship).
+:::
 
 ![SmartShip cover](/img/docs/smartship/cover.png)
 

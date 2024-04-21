@@ -6,6 +6,10 @@ sidebar_position: 3
 custom_edit_url: null
 ---
 
+:::info
+View the source code on [GitHub](https://github.com/dylanwe/fizzy-fitness-app).
+:::
+
 ![Fizzy cover](/img/docs/fizzy/cover.png)
 
 This project was inspired by my research on fitness and its effects on the body and mind. I drew inspiration from the app [Strong](https://www.strong.app/), which unfortunately doesn't have a website. As a result, I decided to create my own version of it. The name "Fizzy" might sound a bit silly, but it evolved from "physique" to "Physi" and finally became "Fizzy." You can check out a [demo video](https://youtu.be/RcGxFgKqzA4) of the project.
@@ -16,7 +20,7 @@ During my time in school, I worked on a project built with Express.js using the 
 
 TypeScript, being a superset of JavaScript, was a seamless transition for me. What I appreciated most about using TypeScript was the ability to add types to my code, enabling safer coding practices and providing helpful hints. Here's an example that demonstrates the use of types, where the `id` parameter has a type of `number`, and the return type is `Promise<User>`:
 
-```typescript
+```typescript title="/models/user.ts"
 /**
  * Get a user by his id
  *

@@ -6,7 +6,9 @@ sidebar_position: 1
 custom_edit_url: null
 ---
 
-[Repository](https://github.com/dylanwe/recall)
+:::info
+View the source code on [GitHub](https://github.com/dylanwe/recall).
+:::
 
 ![Recall cover](/img/docs/recall/cover.jpg)
 
