@@ -28,7 +28,7 @@ const aboutSection: AboutMe[] = [
     {
         icon: '🧑🏻‍💻',
         title: 'Skills',
-        text: ['TypeScript, Kotlin, Golang, SQL, React', 'Git, Scrum, Docker, Kubernetes'],
+        text: ['TypeScript, Kotlin, Kubernetes, SQL, React', 'Git, Scrum, Docker, Kubernetes'],
     },
 ];
 
@@ -79,7 +79,7 @@ const experiences: ExperienceEducation[] = [
 
 const ExperienceBlocks = () => {
     return (
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto mb-12">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-[832px] p-4 max-w-full mx-auto mb-12">
             {experiences.map((experience) => {
                 return <article className="bg-neutral-100 dark:bg-neutral-800 p-4 rounded-xl space-y-2">
                     <div
@@ -121,7 +121,7 @@ const ExperienceBlocks = () => {
                         <h4 className="text-lg text-neutral-800 dark:text-neutral-200 font-bold">
                             {about.title}
                         </h4>
-                        <ul className="text-neutral-600 dark:text-neutral-400 text-sm list-disc list-inside pl-0">
+                        <ul className="text-neutral-600 dark:text-neutral-400 text-sm list-disc list-inside pl-0 space-y-2">
                             {about.text.map((text) => {
                                 return <li key={text}>{text}</li>;
                             })}
