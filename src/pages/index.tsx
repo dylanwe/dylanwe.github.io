@@ -5,16 +5,17 @@ import Layout from '@theme/Layout';
 import Intro from '@site/src/components/intro';
 import IntroImage from '@site/src/components/intro-image';
 import ExperienceBlocks from '@site/src/components/experience-blocks';
+import Head from '@docusaurus/Head';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`Portfolio`}
-      description="Description will go into a meta tag in <head />">
-            <Intro />
-            <IntroImage />
-            <ExperienceBlocks />
+      description="Hey welcome to my portfolio, I'm Dylan Weijgertze a software engineer">
+        <Intro />
+        <IntroImage />
+        <ExperienceBlocks />
     </Layout>
   );
 }
