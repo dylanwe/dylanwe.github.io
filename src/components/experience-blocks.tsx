@@ -28,7 +28,7 @@ const aboutSection: AboutMe[] = [
     {
         icon: '🧑🏻‍💻',
         title: 'Skills',
-        text: ['TypeScript, Kotlin, Kubernetes, SQL, React', 'Git, Scrum, Docker, Kubernetes'],
+        text: ['TypeScript, Kotlin, Go, SQL, React', 'Git, Scrum, Docker, Kubernetes'],
     },
 ];
 
