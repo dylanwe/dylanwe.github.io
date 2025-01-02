@@ -1,11 +1,8 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Intro from '@site/src/components/intro';
 import IntroImage from '@site/src/components/intro-image';
 import ExperienceBlocks from '@site/src/components/experience-blocks';
-import Head from '@docusaurus/Head';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
