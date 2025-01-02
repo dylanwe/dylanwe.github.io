@@ -23,7 +23,7 @@ const Timeline = ({experiences}: TimelineProps) => {
             className="absolute w-3 h-3 bg-neutral-300 rounded-full mt-1.5 -start-1.5 border border-white dark:border-neutral-900 dark:bg-neutral-700"></div>
           <time
             className="mb-1 text-sm font-normal leading-none text-neutral-500 dark:text-neutral-400">{experience.period}</time>
-          <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-2"><a href={experience.companyLink} className="text-cyan-600 hover:text-cyan-800">{experience.company}</a> ∙ {experience.position}</h3>
+          <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-2"><a href={experience.companyLink} target="_blank" className="text-cyan-600 hover:text-cyan-800">{experience.company}</a> ∙ {experience.position}</h3>
           {experience.description && <p className="mb-4 text-base font-normal text-neutral-500 dark:text-neutral-400 max-w-full text-wrap">{experience.description}</p>}
         </li>
       ))}
