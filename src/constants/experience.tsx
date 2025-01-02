@@ -27,7 +27,7 @@ export const EXPERIENCES: ExperienceEducation[] = [
           <>
             <p>
               Working on the GenAI Enablement team, we are responsible for the generative AI infrastructure.
-              I focused our internal GPT wrapper and deployment / extension of a low-code AI orchestration platform.
+              I focused on our internal GPT wrapper and the deployment / extension of a low-code AI orchestration platform.
             </p>
           </>
         )
